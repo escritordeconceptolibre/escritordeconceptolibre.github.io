@@ -20,8 +20,8 @@ header{
     padding:5px 10%;
 }
 header .c1 img{
-    height:auto;
-    width:10%;
+    height:70px;
+    width:auto;
     transition:all 0.3s;
     cursor:pointer;
 }
