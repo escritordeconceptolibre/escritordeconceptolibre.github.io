@@ -1,135 +1,122 @@
-* {margin:0; padding:0; box-sizing:border-box;}
+* {margin:0; padding:0;}
 
 body{
-    background:rgb(211, 197, 187);
-    font-family: 'Times New Roman', Times, serif;
-}
-.wrapper{
-    width:100%;
-    max-width:1200px;
-    margin:auto;
-    overflow:hidden;
+    background:rgb(191, 149, 242);
+    font-family:'Times New Roman', Times, serif;
 }
 header{
     width:100%;
-    overflow:hidden;
-    background:rgb(181, 159, 144);
+    background: rgb(156, 107, 220);
+    padding:20px 20px;
+    align-items:center;
+    text-align:center;
 }
-header .logo{
-    color: rgb(35, 14, 57);
-    font-size:40px;
-    padding:2% 0% 0% 0%;
-    float:left;
-    letter-spacing: 0.7mm;
-    font-family:'Times New Roman';
+.logo{
+    font-size:30px;
+    color: rgb(37, 13, 65);
+    background:rgba(255, 255, 255, 0);
 }
-header .logo p{
-    color: rgb(35, 14, 57);
-    font-size:15px;
-    float:left;
-    font-family:Tahoma, 'Geneva', Verdana, sans-serif;
-}
-header nav a{
-    display: inline-flex;
-    color: rgb(22, 1, 46);
-    text-decoration:none;
-    line-height:normal;
-    font-family:'Geneva';
-    border-bottom:3px solid rgb(78, 255, 75);
-    padding:3px 8px;
-    margin:0px 3px 0px 0px;
-}
-header nav{
-    padding:0px 0px 10px 0px;
-    float:right;
-}
-header nav a:hover{
-    background:rgb(211, 197, 187);
-    color:rgb(22, 1, 46);
-    -webkit-transition:all 500ms easy;
-    -o-transition: all 500ms easy;
-    transition:all 500ms easy;
-    border-radius:50px;
-}    
-header nav a:active{
-    color:rgb(217, 20, 20);
-}
-.contenedor-edcl1{
-    background: rgba(255, 255, 255, 0);
-    justify-content:space-evenly;
-    display:inline-flex;
-    padding:2% 0% 2% 0%;
-    margin:6% 0% 4% 0%;
-}
-.imagen-edcl{
-    width:30%;
-}
-video{
-    background:rgb(86, 129, 31);
-}
-.contenedor-edcl1 .contenido-textos{
-    width:40%;
-    text-align:justify;
-    font-size:18px;
+.h3{
+    font-size:12px;
+    color: rgb(37, 13, 65);
+    background:rgba(227, 141, 141, 0);
+    font-family:Trebuchet;
+    padding:5px;
 }
 .saludo{
+    font-size:20px;
     color: rgb(37, 13, 65);
     text-align: center;
-    font-size:7mm;
-    padding:2% 0% 2% 0%;
-    margin:2% 0% 2% 0%;
-    border-bottom:3px solid rgba(108, 81, 69, 0.748);
+    background: rgba(183, 204, 50, 0);
 }
-.c1 .titulo1{
-    padding:2% 0% 2% 0%;
-    font-size: 9mm;
-    color: rgb(37, 13, 65);
-    text-align: center;
-    background:rgba(255, 255, 255, 0);
-    margin:0% 0% 3% 0%;
-    border-bottom:3px solid rgba(108, 81, 69, 0.748);
-    border-top:3px solid rgba(108, 81, 69, 0.748);
+.contenedor1{
+    background: rgba(247, 0, 202, 0);
+    width:90%;
+    margin:90px auto;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:wrap;
+    flex-direction: column;
 }
-.subtitulo{
-    color: rgb(37, 13, 65);
-    text-align: center;
-    font-size:7mm;
-    padding:2% 0% 2% 0%;
-    margin:0% 0% 3% 0%;
-}
-.c2{
-    background: rgba(255, 255, 255, 0);
-    justify-content:space-evenly;
-    display:inline-flex;
-    padding:2% 0% 2% 0%;
-    margin:2% 0% 2% 0%;
-    border-bottom:3px solid rgba(108, 81, 69, 0.748);
-}
-.imagen-c2{
-    width:30%;
-}
-.c2 .contenido-textos{
-    width:40%;
+.contenidotextos{
+    width:70%;
+    background: rgba(121, 84, 255, 0);
     text-align:justify;
     font-size:18px;
+    padding:20px 20px;
 }
-.contenedor-edcl2{
-    background: rgba(255, 255, 255, 0);
-    justify-content:space-evenly;
-    display:block;
-    padding:1% 0% 2% 0%;
-    margin:6% 0% 4% 0%;
+.subcontenedor1{
+    width: 90px;
+}.titulo1{
+    background:rgba(255, 255, 255, 0);
+    width:80%;
+    font-size:30px;
+    color:  rgb(37, 13, 65);
+    text-align: center;
+    border-bottom:3px solid rgb(78, 255, 75);
+    border-top:3px solid rgb(78, 255, 75);
 }
-.vagon h2{
+.subcontenedor2{
+    width:80%;
+    background: rgba(212, 114, 62, 0);
+    justify-content:space-between;
+    padding:50px 50px;
+    margin:20px auto;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    flex:wrap;
+}
+.subcontenedor2 .contenidotextos{
+    width:70%;
+    background: rgba(121, 84, 255, 0);
+    text-align:justify;
+    font-size:18px;
+    padding:20px 20px;
+}
+.subtitulo{
+    font-size:20px;
+    color: rgb(37, 13, 65);
+    text-align: center;
+    background: rgba(189, 214, 24, 0);
+    margin-bottom:10px;
+}
+.imgsubcontenedor{
+    width:400px;
+    height:300px;
+    align-self:center;
+    margin:10px;
+}
+.bigimgsubcontenedor{
+    width:400px;
+    max-height:500px;
+    align-self:center;
+    margin:10px;
+}
+h2{
     color: rgb(37, 13, 65);
     font-size: 20px;
     text-align:center;
     padding:8px 0px 9px 0px;
 }
-.galeria-vagon{
+video{
+    background:rgb(86, 129, 31);
+    margin:10px;
+}
+.despedida{
+    width:80%;
+    background: rgba(121, 84, 255, 0);
+    text-align:justify;
+    font-size:18px;
+    padding:20px 20px;
+}
+.contenidotextosvagon{
+    background: rgba(121, 84, 255, 0);
     display:flex;
     flex-wrap:wrap;
-    width:100%;
+    width:90%;
     height:none;
     margin:none;
     justify-content:space-evenly;
@@ -160,7 +147,6 @@ video{
     align-items: center;
     flex-direction: column;
 }
-
 .flotar-galeria img{
     width:80%;
     overflow: hidden;
@@ -174,93 +160,58 @@ video{
 .imagen-vagon:hover .flotar-galeria{
     transform: scale(0);
 }
-.barrapasajera{
-    width: 100%;
-    background: rgba(255, 255, 255, 0);
-    justify-content:space-evenly;
-    display:inline-flex;
-    padding:2% 0% 2% 0%;
-    margin:2% 0% 2% 0%;
+.barra{
+    width:90%;
+    display:flex;
+    text-align:center;
 }
-.anterior{
-    color: rgb(35, 14, 57);
-    font-size:16px;
-    text-decoration:none;
-    letter-spacing:.9mm;
-    padding:5px 15px;
-    border-bottom:2px solid rgb(78, 255, 75);
-}
+.anterior,
+.posterior,
 .pagina{
     color: rgb(35, 14, 57);
-    font-size:14px;
-    text-decoration:none;
-    letter-spacing:1mm;
-    font-weight: bold;
-}
-.posterior{
-    color: rgb(35, 14, 57);
     font-size:16px;
     text-decoration:none;
-    letter-spacing:.9mm;
-    padding:5px 15px;
     border-bottom:2px solid rgb(78, 255, 75);
 }
-.posterior:hover{
-    color:rgb(35, 14, 57);
-    -webkit-transition:all 500ms easy;
-    -o-transition: all 500ms easy;
-    transition:all 500ms easy;
-    border-radius:50px;
-    border-bottom:2px solid rgb(78, 255, 75);
-}
-.anterior:hover{
-    color:rgb(35, 14, 57);
-    -webkit-transition:all 500ms easy;
-    -o-transition: all 500ms easy;
-    transition:all 500ms easy;
-    border-radius:50px;
-    border-bottom:2px solid rgb(78, 255, 75);
-}
+
+
 footer{
-    background: rgb(203, 181, 167);
-    width: 100%;
-    padding: 20px 0px 10px 0px;
-    margin: auto;
+    width:100%;
+    background: rgb(156, 107, 220);
+    padding:20px 20px;
+    align-items:center;
+    text-align:center;
 }
 .contenedor-footer{
-    background:none;
-    display: flex;
     width:90%;
+    background:rgba(255, 0, 0, 0);
     justify-content:space-evenly;
-    margin:0% 0% 0% 5%;
+    margin:0 auto;
     padding-bottom: 20px;
-    border-bottom: 3px solid rgb(78, 255, 75);
-}
-.content-foo{
-    background:none;
+    border-bottom:2px solid rgba(30, 242, 27, 0.73);
+    align-items:center;
     text-align: center;
 }
+.content-foo{
+    background:rgba(217, 195, 71, 0);
+    text-align:center;
+    display:inline-block;
+    padding:5px;
+    line-height:1.6rem;
+}
 .content-foo a{
-    background:none;
+    background:rgba(21, 134, 220, 0);
     color: rgb(35, 14, 57);
-    border-bottom:2px solid rgb(78, 255, 75);
-    padding-bottom:4px;
+    border-bottom:2px solid rgb(102, 254, 36);
     text-decoration: none;
-    padding:5px 15px;
 }
 .content-foo a:hover{
-    color:rgb(35, 14, 57);
+    color:rgb(255, 4, 209);
     -webkit-transition:all 500ms easy;
     -o-transition: all 500ms easy;
     transition:all 500ms easy;
-    border-radius:50px;}
-
-.content-foo p{
-    padding-top:5mm;
-    color: rgb(35, 14, 57);
 }
-
-.titulo-final{
+.titulofinal-footer{
     background:none;
     text-align: center;
     font-size:24px;
@@ -268,3 +219,4 @@ footer{
     color: rgb(35, 14, 57);
     margin-bottom: 5mm;
 }
+
