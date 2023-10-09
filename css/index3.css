@@ -1,8 +1,8 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body{
-    background:rgb(187, 118, 229);
-    font-family: 'Times New Roman', Times, serif;
+    background:rgb(180, 100, 242);
+    font-family:'Times New Roman', Times, serif;
 }
 .wrapper{
     width:100%;
@@ -12,7 +12,7 @@ body{
 }
 header{
     color: rgb(37, 13, 65);
-    background:rgb(166, 105, 203);
+    background: rgb(134, 48, 188);
     margin:0%;
     display:flex;
     align-items:center;
@@ -34,7 +34,7 @@ header .c1 img:hover{
 }
 .c1 .titulo1{
     padding:2% 0% 1% 0%;
-    font-size: 8mm;
+    font-size: 9mm;
     color: rgb(37, 13, 65);
     text-align: center;
     background:rgba(255, 255, 255, 0.34);
@@ -55,24 +55,25 @@ header .c1 img:hover{
     margin:2% 0% 2% 0%;
 }
 .c2 .contenido-textos{
-    width:40%;
+    width:30%;
     text-align:justify;
     font-size:18px;
-    margin-bottom:5px;
 }
 .imagen-c2{
-    width:20%;
-    height:7%;
+    width:30%;
+    height:17%;
+    align-self: center;
 }
 .imagen-c3{
     width:20%;
     height:70%;
+    align-self:center;
 }
-.contenedor-edcl2{
+.subcontenedor2{
     background: rgba(245, 243, 243, 0);
     justify-content:space-evenly;
-    padding:20px;
-    margin:10px;
+    padding:20px 20px;
+    margin:10px auto;
 }
 .vagon h2{
     color: rgb(37, 13, 65);
@@ -129,7 +130,7 @@ header .c1 img:hover{
     transform: scale(0);
 }
 footer{
-    background:rgb(151, 86, 191);
+    background: rgb(134, 48, 188);
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -160,7 +161,7 @@ footer{
     margin:50px;
 }
 .contentfoo a:hover{
-    color:rgb(29, 4, 255);
+    color:rgb(255, 255, 255);
     -webkit-transition:all 500ms easy;
     -o-transition: all 500ms easy;
     transition:all 500ms easy;
@@ -174,7 +175,7 @@ footer{
     padding:10px 10px;
 }
 .titulofinalfooter{
-    font-size:20px;
+    font-size:30px;
     background:rgba(21, 134, 220, 0);
     color: rgb(35, 14, 57);
     text-decoration: none;
