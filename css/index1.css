@@ -1,8 +1,9 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 
 body{
-    background:rgb(180, 100, 242);
+    background:rgb(159, 105, 212);
     font-family:'Times New Roman', Times, serif;
+    margin:20px 20px;
 }
 .wrapper{
     width:100%;
@@ -11,8 +12,8 @@ body{
     overflow:hidden;
 }
 header{
-    color: rgb(37, 13, 65);
-    background: rgb(134, 48, 188);
+    color:rgb(159, 105, 212);
+    background: rgb(23, 2, 36);
     margin:0%;
     display:flex;
     align-items:center;
@@ -47,22 +48,26 @@ header .c1 img:hover{
     padding:2% 0% 2% 0%;
     margin:2% 0% 2% 0%;
 }
-.subtitulo{
-    color: rgb(37, 13, 65);
-    text-align: center;
-    font-size:7mm;
-    padding:2% 0% 2% 0%;
-    margin:2% 0% 2% 0%;
-}
 .c2 .contenido-textos{
-    width:30%;
+    width:50%;
     text-align:justify;
     font-size:18px;
 }
-.imagen-c2{
-    width:30%;
-    height:17%;
+.estampas1{
+    min-height:100vh;
+    width: 80%;
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+    gap:30px;
 }
+.estampas2{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
 .subcontenedor2{
     background: rgba(245, 243, 243, 0);
     justify-content:space-evenly;
@@ -124,7 +129,8 @@ header .c1 img:hover{
     transform: scale(0);
 }
 footer{
-    background: rgb(134, 48, 188);
+    background: rgb(23, 2, 36);
+    color:rgb(159, 105, 212);
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -148,14 +154,13 @@ footer{
 .contentfoo a{
     font-size:20px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     border-bottom:2px solid rgba(30, 242, 27, 0.73);
     text-decoration: none;
     text-align: center;
     margin:50px;
 }
 .contentfoo a:hover{
-    color:rgb(255, 255, 255);
+    color:rgb(159, 105, 212);
     -webkit-transition:all 500ms easy;
     -o-transition: all 500ms easy;
     transition:all 500ms easy;
@@ -163,7 +168,6 @@ footer{
 .tituloprefinal{
     font-size:20px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     text-decoration: none;
     text-align: center;
     padding:10px 10px;
@@ -171,7 +175,6 @@ footer{
 .titulofinalfooter{
     font-size:30px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     text-decoration: none;
     text-align: center;
     padding:10px 10px;
