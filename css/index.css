@@ -188,7 +188,8 @@ header{
     transform:scale(0);
 }
 footer{
-    background: rgb(134, 48, 188);
+    background: rgb(23, 2, 36);
+    color:rgb(159, 105, 212);
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -212,14 +213,13 @@ footer{
 .contentfoo a{
     font-size:20px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     border-bottom:2px solid rgba(30, 242, 27, 0.73);
     text-decoration: none;
     text-align: center;
     margin:50px;
 }
 .contentfoo a:hover{
-    color:rgb(255, 255, 255);
+    color:rgb(159, 105, 212);
     -webkit-transition:all 500ms easy;
     -o-transition: all 500ms easy;
     transition:all 500ms easy;
@@ -227,7 +227,6 @@ footer{
 .tituloprefinal{
     font-size:20px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     text-decoration: none;
     text-align: center;
     padding:10px 10px;
@@ -235,7 +234,6 @@ footer{
 .titulofinalfooter{
     font-size:30px;
     background:rgba(21, 134, 220, 0);
-    color: rgb(35, 14, 57);
     text-decoration: none;
     text-align: center;
     padding:10px 10px;

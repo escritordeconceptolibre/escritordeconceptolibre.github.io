@@ -3,7 +3,6 @@
 body{
     background:rgb(159, 105, 212);
     font-family:'Times New Roman', Times, serif;
-    margin:20px 20px;
 }
 .wrapper{
     width:100%;
@@ -53,21 +52,21 @@ header .c1 img:hover{
     text-align:justify;
     font-size:18px;
 }
-.estampas1{
-    min-height:100vh;
-    width: 80%;
+.estampas{
+    min-height:80vh;
+    width:60%;
     margin:0 auto;
 
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(min(350px, 100%), 1fr));
     gap:30px;
 }
-.estampas2{
+
+.estampas1{
     width:100%;
     height:100%;
-    object-fit:cover;
+    object-fit: cover;
 }
-
 .subcontenedor2{
     background: rgba(245, 243, 243, 0);
     justify-content:space-evenly;
